@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
 
-    contacts["Freddy Mercury"][:favorite_icecream_flavors].delete ("strawberry")
+    contacts["Freddy Mercury"][:favorite_icecream_flavors] - [0]
     
     cantacts[:favorite_icecream_flavors]
 
